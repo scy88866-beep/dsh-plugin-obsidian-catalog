@@ -1,0 +1,48 @@
+{
+  "name": "dsh-plugin-obsidian-catalog",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Obsidian vault table of contents as a Harness conversation view: folders, tags, word counts, headings, @-path copying and vault switching.",
+  "keywords": [
+    "dsh-plugin",
+    "dsh",
+    "obsidian",
+    "markdown",
+    "table-of-contents",
+    "knowledge-base"
+  ],
+  "license": "MIT",
+  "author": "scy88866-beep",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scy88866-beep/dsh-plugin-obsidian-catalog.git"
+  },
+  "homepage": "https://github.com/scy88866-beep/dsh-plugin-obsidian-catalog#readme",
+  "bugs": {
+    "url": "https://github.com/scy88866-beep/dsh-plugin-obsidian-catalog/issues"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": ["@deepseek-ai/dsh-client-ui-conversation"]
+    }
+  }
+}
