@@ -22,26 +22,20 @@ The panel reads the vault directory straight off disk on the host side and shows
 
 ## Install
 
-From this repository, point the plugin manager at the checkout:
+```sh
+dsh plugin --profile web add dsh-plugin-obsidian-catalog
+```
+
+Restart DeepSeek Harness if the plugin does not appear, then open a session and pick
+**知识库目录 / Obsidian Catalog** from the conversation view switcher.
+
+To install straight from a checkout instead of npm:
 
 ```text
 plugin_manager { action: "install_bundle", target: "<absolute path to this repository>" }
 ```
 
-Or clone it first and install from the clone:
-
-```sh
-git clone https://github.com/scy88866-beep/dsh-plugin-obsidian-catalog
-cd dsh-plugin-obsidian-catalog
-```
-
-Once the package is published on npm, the one-liner becomes:
-
-```sh
-dsh plugin add dsh-plugin-obsidian-catalog
-```
-
-After installing, open a session and pick **知识库目录 / Obsidian Catalog** from the conversation view switcher.
+Requires DeepSeek Harness 0.2.x.
 
 ## Configuration
 
