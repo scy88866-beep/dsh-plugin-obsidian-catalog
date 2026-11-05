@@ -72,11 +72,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "publishTimestamp": 1793909134,
+          "publishTimestamp": 1793882035,
           "source": {
-            "type": "git",
-            "url": "https://github.com/scy88866-beep/dsh-plugin-obsidian-catalog",
-            "commit": "3eb3e951a3c96b9e76168bdd31174471c96ad0af"
+            "type": "npm",
+            "registry": "https://registry.npmjs.org"
           },
           "engines": {
             "dsh": ">=0.2.0-0 <0.3.0"
