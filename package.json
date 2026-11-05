@@ -1,6 +1,6 @@
 {
   "name": "dsh-plugin-obsidian-catalog",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "type": "module",
   "description": "Obsidian vault table of contents as a Harness conversation view: folders, tags, word counts, headings, @-path copying and vault switching.",
