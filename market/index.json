@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "title": {
+    "en": "scy88866-beep Plugins",
+    "zh": "scy88866-beep 插件市场"
+  },
+  "description": {
+    "en": "DeepSeek Harness plugins published by scy88866-beep.",
+    "zh": "scy88866-beep 发布的 DeepSeek Harness 插件。"
+  },
+  "metadata": {
+    "categories": {
+      "ui": {
+        "title": {
+          "en": "UI & Experience",
+          "zh": "界面与体验"
+        }
+      },
+      "knowledge": {
+        "title": {
+          "en": "Data & Knowledge",
+          "zh": "数据与知识"
+        }
+      }
+    },
+    "labels": {
+      "open-source": {
+        "title": {
+          "en": "Open source",
+          "zh": "开源"
+        }
+      },
+      "obsidian": {
+        "title": {
+          "en": "Obsidian",
+          "zh": "Obsidian"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-plugin-obsidian-catalog",
+      "title": {
+        "en": "Obsidian Catalog",
+        "zh": "知识库目录"
+      },
+      "description": {
+        "en": "Obsidian vault table of contents as a conversation view: folder tree, tags, word counts, heading outlines, one-click @path copying and vault switching.",
+        "zh": "把 Obsidian 仓库渲染成对话视图里的实时目录：文件夹树、标签、字数、标题大纲、一键复制 @ 路径，并可切换仓库。"
+      },
+      "icon": "icons/obsidian-catalog.svg",
+      "author": "scy88866-beep",
+      "homepage": "https://github.com/scy88866-beep/dsh-plugin-obsidian-catalog#readme",
+      "repository": {
+        "url": "https://github.com/scy88866-beep/dsh-plugin-obsidian-catalog"
+      },
+      "metadata": {
+        "category": "knowledge",
+        "keywords": [
+          "obsidian",
+          "markdown",
+          "table-of-contents",
+          "knowledge-base",
+          "vault"
+        ],
+        "labels": [
+          "open-source",
+          "obsidian"
+        ]
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1793909134,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/scy88866-beep/dsh-plugin-obsidian-catalog",
+            "commit": "3eb3e951a3c96b9e76168bdd31174471c96ad0af"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-0 <0.3.0"
+          }
+        }
+      ]
+    }
+  ]
+}
